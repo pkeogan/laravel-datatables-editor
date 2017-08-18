@@ -26,15 +26,10 @@
       "Pkeogan\\Datatables\\": "src/"
     }
   },
-  "autoload-dev": {
-    "psr-4": {
-      "Pkeogan\\Datatables\\Tests\\": "tests/"
-    }
-  },
   "extra": {
     "branch-alias": {
       "dev-master": "0.1-dev"
     }
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "dev"
 }
