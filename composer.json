@@ -1,0 +1,40 @@
+{
+  "name": "pkeogan/laravel-datatables-editor",
+  "description": "Datables Editor Intergrated with Laravel",
+  "keywords": [
+    "laravel",
+    "dataTables",
+    "jquery"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Peter Keogan",
+      "email": "peter@pkeogan.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "illuminate/database": "5.4.*",
+    "illuminate/filesystem": "5.4.*",
+    "illuminate/http": "5.4.*",
+    "illuminate/support": "5.4.*",
+    "illuminate/view": "5.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pkeogan\\Datatables\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pkeogan\\Datatables\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  },
+  "minimum-stability": "stable"
+}
